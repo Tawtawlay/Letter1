@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.bodybg {
+  background-color: #f8d3d3;
+}
+
+p, h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+/* .outline {
+  border: 5px solid black;
+} */
+
+.container {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: auto;
+  margin-top: 35px;
+}
+
+.first-div {
+  border: 1px solid lightgray;
+  width: 236px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 2px 3px 10px #000000;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  height: 400px;
+  background-color: #ffd1d1;
+}
+
+.first-div:hover {
+  box-shadow: 2px 3px 10px #606060;
+}
+
+/* second div */
+
+.second-div {
+  border: 1px solid lightgray;
+  width: 236px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 2px 3px 10px #000000;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+  height: 400px;
+  background-color: lightblue;
+}
+
+.second-div:hover {
+  box-shadow: 2px 3px 10px #606060;
+}
+
+.button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #3eb3bb;
+  font-weight: bold;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.underline {
+  text-decoration: none;
+}
+
